@@ -1,0 +1,23 @@
+{
+	"name": "najaram/WPSeederDaw",
+	"description": "Wordpress Seeder",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Najaram",
+			"email": "najaramxxx@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Najaram\\WPSeederDaw\\": "src"
+		}
+	},
+	"require": {
+		"symfony/console": "^4.1",
+		"fzaninotto/faker": "^1.7",
+		"vlucas/phpdotenv": "^2.4",
+		"nesbot/carbon": "^1.29",
+		"guzzlehttp/guzzle": "~6.0"
+	}
+}
